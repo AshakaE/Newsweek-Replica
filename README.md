@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# A replica of "Newsweek Webpage" using Bootstarp technology
+# A replica of "Newsweek Webpage" using Bootstrap technology
 
 
 
