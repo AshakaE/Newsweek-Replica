@@ -1,14 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# A responsive web design clone of "The Next Web"
+# A replica of "Newsweek Webpage" using Bootstarp technology
 
-Responsive Web Design for [The Next Web](https://thenextweb.com/)
 
-![screenshot](./app_screenshot.png)
 
-- This project is a recreation of the The Next Web built with media queries to respond and adapt to various screen sizes while displaying it's content in an orderly fashion.
-- Media queries are set at 767px max for mobile devices and 1023px max for tablet view.
-- Elements aligned using flexbox, floats and grids
+![screenshot]()
+
+- This project is a recreation of Newsweek webpage
 
 ## Built With
 
@@ -16,22 +14,23 @@ Responsive Web Design for [The Next Web](https://thenextweb.com/)
 - CSS
 - VS Code
 - Git and Github
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Ralph-1/The-Next-web/The-Next-Web-Clone/index.html)
+[Live Demo Link]()
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@Ralph-1](https://github.com/Ralph-1)
+- GitHub: [@AshakaE](https://github.com/AshakaE)
 
 
 👤 **Author2**
 
-- GitHub: [@AshakaE](https://github.com/AshakaE)
+- GitHub: [@udberg](https://github.com/udberg)
 
 
 ## 🤝 Contributing
@@ -44,7 +43,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- CSS Grids were generated faster using this [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
 
 ## 📝 License
 
