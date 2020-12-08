@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f0f0f0 !important;
 }
 
 .header-middle {
@@ -23,8 +24,9 @@ body {
     padding-left: 50px;
 }
 
-.container-sm {
+.container-header{
     background-color: #F72210;
+    width: auto;
 }
 
 .fa-user {
@@ -55,20 +57,48 @@ body {
     -o-border-radius: 24px;
 }
 
-.top-news {
-    float: left;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 20px;
+.card {
+    border: none !important;
+}
+
+.card-body {
+    padding: 1.25rem 0 0 0;
+}
+
+
+.top-story {
+    border-top: 1px solid #c0c0c0;
+    padding-top: 15px;
+    margin-top: -15px;
 }
 
 .main {
     padding-top: 30px;
+    margin: 0 auto;
 }
 
-.img-class {
-    margin-bottom: 12px;
+.img-div {
+    width: 130px;
+}
+
+.middle-col {
+    background-color: white;
+    border-bottom: 1px solid #e2e2e2;
+    padding-top: 10px;
+}
+
+.article {
+    padding: 0 0 0 10px;
+}
+
+.no-row {
+    flex-wrap: nowrap;
+}
+
+.left-col {
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 10px;
 }
 
 h2 {
@@ -96,18 +126,32 @@ h4 {
     font-weight: 700;
 }
 
-.summary {
-    font-size: 13px;
-    line-height: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+h5 {
+    font-weight: 700;
+}
+
+h6 {
+    font-weight: 700 !important;
+}
+
+.h6 {
+    padding: 7px 0;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.left {
+    margin-top: 20px;
 }
 
 .relative {
     position: relative;
 }
 
-.identity {
+.absolute {
     position: absolute;
+}
+
+.identity {
     bottom: 0;
     left: 0;
     color: #F72210;
@@ -116,14 +160,4 @@ h4 {
     font-size: 17px;
     line-height: 16px;
     padding: 6px 12px;
-}
-
-.feature {
-    padding-top: 14px;
-    padding-bottom: 14px;
-    border-top: 1px solid #ddd;
-}
-
-.feature-img {
-    margin-right: 15px;
 }
