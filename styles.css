@@ -25,6 +25,7 @@ body {
 }
 
 .container-header {
+    position: relative;
     background-color: #F72210;
     width: auto;
 }
@@ -401,9 +402,8 @@ h6 {
 }
 
 .news-img {
-    display: block;
-    background: url(../assets/starting5-homepage.png) center center / cover no-repeat;
     height: 170px;
+    width: auto;
     z-index: 200;
 }
 
@@ -517,4 +517,96 @@ h6 {
     width: max-content;
     background-color: white;
     padding: 48px 15px 30px 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .d-flex {
+        display: block !important;
+    }
+    .hide-767 {
+        display: block !important;
+    }
+    .show-768 {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .left-col {
+        margin-top: 0;
+        padding-right: 15px;
+    }
+    .middle-col {
+        padding-left: 15px;
+        border: none;
+    }
+    .hide-767 {
+        display: none !important;
+    }
+    .show-768 {
+        display: block;
+    }
+    .show-pad {
+        padding-right: 15px;
+    }
+    #sticky1, #sticky2 {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 60px;
+    }
+    .margin-top {
+        margin-top: 0;
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .d-flex-tab {
+        padding-right: 15px;
+    }
+    .d-flex-tab-1 {
+        padding-left: 15px;
+    }
+    .subscribe {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .subscribe-2 {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        text-align: start;
+        padding-top: 25px;
+        padding-left: 30px;
+    }
+    .col-r {
+        display: flex;
+        flex-direction: row !important;
+    }
+    .col-r>div {
+        width: 50%;
+        flex-direction: row;
+    }
+    .news-img {
+        height: auto;
+    }
+    .info {
+        padding: 25px 20px 30px;
+    }
+
+    .flex-mod {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mod-1 {
+        align-items: flex-end;
+    }
+
+    .right-col {
+        margin-top: 0;
+    }
 }
