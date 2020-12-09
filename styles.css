@@ -35,8 +35,9 @@ body {
     font-size: 16px;
 }
 
-.brand {
+.brand-top {
     width: 130px;
+    fill: white;
 }
 
 .menu-icon {
@@ -408,6 +409,7 @@ h6 {
 
 .subscribe-form {
     padding-top: 39px !important;
+    padding-bottom: 20px !important;
     background-color: white;
 }
 
@@ -423,4 +425,96 @@ h6 {
 .sign-last {
     display: flex;
     height: 38px;
+}
+
+.page-footer {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.page-footer, .brand, .svg {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
+.page-footer, .copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.fab {
+    font-size: 26px;
+    vertical-align: top;
+    text-align: center;
+    display: block;
+    font-family: "Genericons";
+    cursor: pointer;
+}
+
+.footer, .social {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.footer .social li:first-child {
+    margin-left: 0;
+    list-style: none;
+}
+
+.social li {
+    margin-left: 10px;
+}
+
+.footer .footer-links {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+}
+
+.footer .footer-links li {
+    display: inline-block;
+    padding-right: 20px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.flex-xs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links ul {
+    margin: 0;
+}
+
+.footer-links a {
+    color: #666;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-links-edition {
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    width: max-content;
+    background-color: white;
+    padding: 48px 15px 30px 15px;
 }
