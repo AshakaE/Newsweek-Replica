@@ -4,7 +4,6 @@
 
 
 
-![screenshot]()
 
 - This project is a recreation of Newsweek webpage
 
@@ -15,10 +14,6 @@
 - VS Code
 - Git and Github
 - Bootstrap
-
-## Live Demo
-
-[Live Demo Link]()
 
 
 ## Authors
