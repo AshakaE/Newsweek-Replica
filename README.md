@@ -31,7 +31,7 @@ A replica of [NewsWeek](https://www.newsweek.com/)'s home page. The website is b
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://ashakae.github.io/Newsweek-Replica/)
 
 
 ## 🤝 Contributing

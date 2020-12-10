@@ -12,6 +12,7 @@ body {
 li {
     list-style: none;
 }
+
 .header-middle {
     padding: 15px;
 }
@@ -810,7 +811,7 @@ h6 {
         flex-direction: column;
         height: auto;
     }
-    .sign-last>input {
+    .sign-last > input {
         margin-bottom: 10px;
     }
 }
