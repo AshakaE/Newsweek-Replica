@@ -4,7 +4,7 @@
 
 A replica of [NewsWeek](https://www.newsweek.com/)'s home page. The website is build using the modern `css` and `bootstrap` to achieve the desired UI. it's built mobile first with media breakpoints to respond to various screen size `@min-width 768px` and `@min-width 992px` . 
 
-![Screenshot of newsweek clone](./app-screenshot.jpg)
+![Screenshot of newsweek clone](app-screenshot.jpg)
 
 - This project is a recreation of Newsweek webpage
 
