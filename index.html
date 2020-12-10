@@ -13,18 +13,18 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./styles.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
     <title>Newsweek Replica</title>
   </head>
 
   <body>
-    <div class="container-fluid container-header">
+    <div class="container-fluid container-header" id="conhead">
       <header class="page-header">
         <div class="page-header-1">
           <a href="https://www.newsweek.com" title="logo">
@@ -70,7 +70,7 @@
           <div class="order-1">
             <div class="d-flex flex-column">
               <div class="p-2 d-flex top-p2">
-                <img class="order-1" src="./assets/33.png" alt="WeatherIcon" style="width: 25px; height: 25px;">
+                <img class="order-1 weathericon" src="./assets/33.png" alt="WeatherIcon">
                 <p class="order-2">28&deg; Lagos, NG</p>
               </div>
               <div class="p-2 top-p2">
@@ -141,7 +141,7 @@
         </div>
         <div class="nav-bottom container-fluid">
           <ul class="nav">
-            <li class="nav-item no-b no-b-1">
+            <li class="nav-item no-b no-b-1" id="no-b">
               <a class="nav-link active" href="#">TRENDING</a>
             </li>
             <li class="nav-item no-b">
@@ -163,8 +163,230 @@
         </div>
       </div>
       <div class="container-fluid">
-        
+        <div class="row middle-col middle-story width599">
+          <div class="col">
+            <div class="sticky2">
+            <div class="card mb-3">
+            <h5 class="text-muted">TOP STORY</h5>
+            <div class="relative">
+              <img src="./assets/kelly-loeffler-debates-raphael-warnock-georgia.png" class="card-img-top relative" alt="kelly">
+              <span class=" identity absolute">POLITICS</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Loeffler Declines To Defend Her Ally Kemp From Trump's Attack</h5>
+              <p class="card-text">Moderators asked the incumbent Georgia Republican senator if she
+              supported Trump's attacks on Kemp three separate times during
+              Sunday's debate.</p>
+              <div class="top-story">
+                <div class="card mb-3">
+                  <div class="row no-gutters no-row">
+                    <div class="col-md-4 float-left img-div" >
+                      <img src="./assets/kelly.png" class="card-img kelly" alt="kelly">
+                    </div>
+                    <div class="col-md-8 float-right">
+                      <div class="card-body article">
+                        <h6 class="card-title">Loeffler Dodges Question on Election Rigging as Ossoff Debates
+                        Empty Room</h6>
+                        <small class="card-text">Georgia Democratic Senate candidate Jon Ossoff asked the empty
+                        podium—which moderator Russ Spencer introduced as Republican
+                        Senator David Perdue—several questions, and then answered them
+                        himself.</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="margin-top  show-768">
+                <h6 class="list-head my-turn">MY TURN</h6>
+                <div class="d-flex">
+                  <div class="card mb-3 order-1 show-pad">  
+                    <div class="relative">
+                      <img src="./assets/coronavirus-pandemic-mini-stroke-hospitals.jpg" class="card-img-top" alt="sick">
+                    </div>
+                    <h6 class="list-head my-turn">'I'm 23, I Had a Mini Stroke Days After Contracting COVID'</h6>
+                  </div>
+                  <div class="card mb-3 order-2 show-pad">
+                    <div class="relative">
+                      <img src="./assets/coronavirus-pandemic-mini-stroke-hospitals.jpg" class="card-img-top" alt="sick">
+                    </div>
+                    <h6 class="list-head my-turn">'I'm 23, I Had a Mini Stroke Days After Contracting COVID'</h6>
+                  </div>
+                  <div class="card mb-3 order-3">
+                    <div class="relative">
+                      <img src="./assets/coronavirus-pandemic-mini-stroke-hospitals.jpg" class="card-img-top" alt="sick">
+                    </div>
+                    <h6 class="list-head my-turn">'I'm 23, I Had a Mini Stroke Days After Contracting COVID'</h6>
+                  </div>
+              </div>
+            </div> 
+            <div class="margin-top  show-768">
+                <h6 class="list-head my-turn">CULTURE & TRAVEL</h6>
+                <div class="d-flex">
+                  <div class="card mb-3 order-1 show-pad">
+                      
+                    <div class="relative">
+                      <img src="./assets/culture.jpg" class="card-img-top" alt="sick">
+                    </div>
+                    <h6 class="list-head my-turn">These Countries Are the Most Dependent on Tourism</h6>
+                  </div>
+                  <div class="card mb-3 order-2 show-pad">
+                    <div class="relative">
+                      <img src="./assets/culture.jpg" class="card-img-top" alt="sick">
+                    </div>
+                    <h6 class="list-head my-turn">These Countries Are the Most Dependent on Tourism</h6>
+                  </div>
+                  <div class="card mb-3 order-3">
+                    <div class="relative">
+                      <img src="./assets/culture.jpg" class="card-img-top" alt="sick">
+                    </div>
+                    <h6 class="list-head my-turn">These Countries Are the Most Dependent on Tourism</h6>
+                  </div>
+              </div>
+            </div>
+            <div class="row middle-col show-768">
+              <div class="col">
+                <div class="more-story">
+                  <h6 class="list-head">MORE STORIES</h6>
+                  <article class="card mb-3" id="ms-card1">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="card mb-3" id="ms-card2">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="card mb-3" id="ms-card3">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="card mb-3" id="ms-card4">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="card mb-3" id="ms-card5">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="card mb-3" id="ms-card6">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="card mb-3" id="ms-card7">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="card mb-3" id="ms-card8">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="card mb-3" id="ms-card9">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="card mb-3" id="ms-card10">
+                    <div class="row no-gutters no-row">
+                      <div class="col-md-4 float-left img-div" >
+                        <img src="./assets/face10.jpg" class="card-img face" alt="face">
+                      </div>
+                      <div class="col-md-8 float-right">
+                        <div class="card-body article">
+                          <h6 class="card-title">Rebekah Jones Says Florida Gov. DeSantis Trying to 'Intimidate Scientists'</h6>
+                          <small class="card-text">Jones issued a warning to her Department of Health sources that their identities might be exposed, and denied being behind a message investigated by law enforcement.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>               
+          </div>
+          </div>
+        </div>
         <div class="d-flex p-b">
+        
         <div class="d-flex order-1 width71">
           <div class="row middle-col middle-story order-2  width59">
             <div class="col">
@@ -184,7 +406,7 @@
                   <div class="card mb-3">
                     <div class="row no-gutters no-row">
                       <div class="col-md-4 float-left img-div" >
-                        <img src="./assets/kelly.png" class="card-img" alt="kelly" style="width: 95px; height: 95px;">
+                        <img src="./assets/kelly.png" class="card-img kelly" alt="kelly">
                       </div>
                       <div class="col-md-8 float-right">
                         <div class="card-body article">
@@ -252,10 +474,10 @@
                 <div class="col">
                   <div class="more-story">
                     <h6 class="list-head">MORE STORIES</h6>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card11">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -265,10 +487,10 @@
                         </div>
                       </div>
                     </article>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card12">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -278,10 +500,10 @@
                         </div>
                       </div>
                     </article>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card13">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -291,10 +513,10 @@
                         </div>
                       </div>
                     </article>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card14">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -304,10 +526,10 @@
                         </div>
                       </div>
                     </article>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card15">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -317,10 +539,10 @@
                         </div>
                       </div>
                     </article>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card16">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -330,10 +552,10 @@
                         </div>
                       </div>
                     </article>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card17">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -343,10 +565,10 @@
                         </div>
                       </div>
                     </article>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card18">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -356,10 +578,10 @@
                         </div>
                       </div>
                     </article>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card19">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -369,10 +591,10 @@
                         </div>
                       </div>
                     </article>
-                    <article class="card mb-3 ms-card">
+                    <article class="card mb-3" id="ms-card20">
                       <div class="row no-gutters no-row">
                         <div class="col-md-4 float-left img-div" >
-                          <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                          <img src="./assets/face10.jpg" class="card-img face" alt="face">
                         </div>
                         <div class="col-md-8 float-right">
                           <div class="card-body article">
@@ -445,7 +667,7 @@
             <div class="col">
               <div class="margin-top">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item list-item relative">
+                <li class="list-group-item relative" id="list-item1">
                   <h6 class="list-header">THE DEBATE</h6>
                   <div class="float-left">
                     <img src="./assets/face1.png" alt="face">
@@ -462,7 +684,7 @@
                     VS
                   </div>
                 </li>
-                <li class="list-group-item list-item">
+                <li class="list-group-item" id="list-item2">
                   <div class="list-text float-left list-text-top-1">
                     <h6>
                       Should Trump Concede? Not Yet
@@ -484,7 +706,7 @@
             <div class="col">
               <div class="margin-top">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item list-item">
+                  <li class="list-group-item" id="list-item3">
                     <h6 class="list-head">OPINION</h6>
                     <div class="float-left">
                       <img src="./assets/face3.png" alt="face">
@@ -498,7 +720,7 @@
                       </p>
                     </div>
                   </li>
-                  <li class="list-group-item list-item">
+                  <li class="list-group-item" id="list-item4">
                     <div class="float-left">
                       <img src="./assets/face4.png" alt="face">
                     </div>
@@ -511,7 +733,7 @@
                       </p>
                     </div>
                   </li>
-                  <li class="list-group-item list-item">
+                  <li class="list-group-item" id="list-item5">
                     <div class="float-left">
                       <img src="./assets/face5.png" alt="face">
                     </div>
@@ -524,7 +746,7 @@
                       </p>
                     </div>
                   </li>
-                  <li class="list-group-item list-item">
+                  <li class="list-group-item" id="list-item6">
                     <div class="float-left">
                       <img src="./assets/face4.png" alt="face">
                     </div>
@@ -537,7 +759,7 @@
                       </p>
                     </div>
                   </li>
-                  <li class="list-group-item list-item">
+                  <li class="list-group-item" id="list-item7">
                     <div class="float-left">
                       <img src="./assets/face5.png" alt="face">
                     </div>
@@ -550,7 +772,7 @@
                       </p>
                     </div>
                   </li>
-                  <li class="list-group-item list-item">
+                  <li class="list-group-item" id="list-item8">
                     <div class="float-left">
                       <img src="./assets/face4.png" alt="face">
                     </div>
@@ -563,7 +785,7 @@
                       </p>
                     </div>
                   </li>
-                  <li class="list-group-item list-item">
+                  <li class="list-group-item" id="list-item9">
                     <div class="float-left">
                       <img src="./assets/face5.png" alt="face">
                     </div>
@@ -596,7 +818,7 @@
           <div class="col">
             <div class="margin-top">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item list-item relative">
+              <li class="list-group-item relative" id="list-item10">
                 <h6 class="list-header">THE DEBATE</h6>
                 <div class="float-left">
                   <img src="./assets/face1.png" alt="face">
@@ -613,7 +835,7 @@
                   VS
                 </div>
               </li>
-              <li class="list-group-item list-item">
+              <li class="list-group-item" id="list-item11">
                 <div class="list-text float-left list-text-top-1">
                   <h6>
                     Should Trump Concede? Not Yet
@@ -635,7 +857,7 @@
           <div class="col">
             <div class="margin-top">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item list-item">
+                <li class="list-group-item" id="list-item12">
                   <h6 class="list-head">OPINION</h6>
                   <div class="float-left">
                     <img src="./assets/face3.png" alt="face">
@@ -649,7 +871,7 @@
                     </p>
                   </div>
                 </li>
-                <li class="list-group-item list-item">
+                <li class="list-group-item" id="list-item13">
                   <div class="float-left">
                     <img src="./assets/face4.png" alt="face">
                   </div>
@@ -662,7 +884,7 @@
                     </p>
                   </div>
                 </li>
-                <li class="list-group-item list-item">
+                <li class="list-group-item" id="list-item14">
                   <div class="float-left">
                     <img src="./assets/face5.png" alt="face">
                   </div>
@@ -675,7 +897,7 @@
                     </p>
                   </div>
                 </li>
-                <li class="list-group-item list-item">
+                <li class="list-group-item" id="list-item15">
                   <div class="float-left">
                     <img src="./assets/face4.png" alt="face">
                   </div>
@@ -688,7 +910,7 @@
                     </p>
                   </div>
                 </li>
-                <li class="list-group-item list-item">
+                <li class="list-group-item" id="list-item16">
                   <div class="float-left">
                     <img src="./assets/face5.png" alt="face">
                   </div>
@@ -701,7 +923,7 @@
                     </p>
                   </div>
                 </li>
-                <li class="list-group-item list-item">
+                <li class="list-group-item" id="list-item17">
                   <div class="float-left">
                     <img src="./assets/face4.png" alt="face">
                   </div>
@@ -714,7 +936,7 @@
                     </p>
                   </div>
                 </li>
-                <li class="list-group-item list-item">
+                <li class="list-group-item" id="list-item18">
                   <div class="float-left">
                     <img src="./assets/face5.png" alt="face">
                   </div>
@@ -745,10 +967,10 @@
             <div class="col">
               <div class="more-story">
                 <h6 class="list-head">MORE STORIES</h6>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card21">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -758,10 +980,10 @@
                     </div>
                   </div>
                 </article>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card22">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -771,10 +993,10 @@
                     </div>
                   </div>
                 </article>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card23">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -784,10 +1006,10 @@
                     </div>
                   </div>
                 </article>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card24">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -797,10 +1019,10 @@
                     </div>
                   </div>
                 </article>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card25">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -810,10 +1032,10 @@
                     </div>
                   </div>
                 </article>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card26">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -823,10 +1045,10 @@
                     </div>
                   </div>
                 </article>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card27">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -836,10 +1058,10 @@
                     </div>
                   </div>
                 </article>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card28">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -849,10 +1071,10 @@
                     </div>
                   </div>
                 </article>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card29">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -862,10 +1084,10 @@
                     </div>
                   </div>
                 </article>
-                <article class="card mb-3 ms-card">
+                <article class="card mb-3" id="ms-card30">
                   <div class="row no-gutters no-row">
                     <div class="col-md-4 float-left img-div" >
-                      <img src="./assets/face10.jpg" class="card-img" alt="face" style="width: 95px; height: 95px;">
+                      <img src="./assets/face10.jpg" class="card-img face" alt="face">
                     </div>
                     <div class="col-md-8 float-right">
                       <div class="card-body article">
@@ -1143,11 +1365,11 @@
         </div>
         <div class="flex992">
         <section class="row margin-top section-sub flex-px">
-          <div class="sub-mag" style="width: 100%;">
-            <h5 style="color: red;">
+          <div class="sub-mag">
+            <h5 id="mag1">
               SUBSCRIBE
             </h5>
-            <div class="col subscribe">
+            <div class="col subscribe" id="subscribe">
               <div>
                 <img src="./assets/subscribe.jpg" alt="sub">
               </div>
@@ -1162,17 +1384,17 @@
                   Choose A Membership That's Perfect for You!</p>
                 </div>
                 <form action="submit">
-                  <input type="submit" class="form-submit sub" value="SUBSCRIBE &gt;">
+                  <input type="submit" class="form-submit sub" value="SUBSCRIBE &gt;" id="sub">
                 </form>
               </div>
             </div>
           </div>
         </section>
         <section class="row margin-top flex-pz">
-          <div class="col-lg-4 subscribe-form form-768" style="width: 100%;">
-            <div class="" style="color: red;"><h5>NEWSLETTER</h5></div>
-            <div class="col-r flex-sm">
-              <div class="news-img" style="background: url(./assets/starting5-homepage.png) center center / cover no-repeat;"></div>
+          <div class="col-lg-4  form-768" id="subscribe-form">
+            <div><h5 id="mag2">NEWSLETTER</h5></div>
+            <div class="col-r flex-sm" id="dsprow">
+              <div class="news-img"></div>
                   <div class="f1 info">
                     <h3>The Starting 5</h3>
                     <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
@@ -1187,7 +1409,7 @@
         </div>
         <section class="row margin-top">
           <h6>&nbsp;</h6>
-          <footer class="col-lg-4 subscribe-form footer" style="width: 100%;">
+          <footer class="col-lg-4 subscribe-form footer">
             <div class="flex-mod">
               <div class="footer-brand flex-mod mod-1">
                 <a class="brand" href="https://www.newsweek.com" title="Newsweek Homepage"> 
@@ -1206,7 +1428,7 @@
             </div>
             <div class="footer-links">
               <div class="footer-links-edition flex-xs">
-                <label style="margin-top:6px;margin-right:15px"><strong>Editions:</strong></label>
+                <label><strong>Editions:</strong></label>
                 <ul class="menu">
                   <li class="first leaf"><a href="https://www.newsweek.com/">U.S. Edition</a></li>
                   <li class="leaf"><a href="https://www.newsweekjapan.jp/" rel="nofollow noopener">日本</a></li>
@@ -1235,8 +1457,6 @@
         </section>
     </div>
     </div>
-      
-
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
